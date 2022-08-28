@@ -30,7 +30,7 @@ def unpack_nested_seq(seq: List):
 
 def unpack_variable_elems(seq: List):
     name, email, *phone_numbers = seq
-    return name, email, phone_numbers
+    return name, email, phone_numbers   # phone_numbers will always be of type list
 
 
 if __name__ == "__main__":
