@@ -1,0 +1,5 @@
+My name is Ishan Dindorkar.
+I am reading book - Python Cookbook.
+I am Software Developer working at XYZ Corp.
+My tech stack includes Machine Learning.
+Python proved to be an important language for ML related tasks.
