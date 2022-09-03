@@ -30,7 +30,7 @@ def calculate_portfolio_investment(stock_list: List):
     Stock = namedtuple("Stock", ["name", "qty", "price"])  # defined namedtuple to represent a stock in portfolio
 
     for stock in stock_list:
-        stock_inst = Stock(*stock)
+        stock_inst = Stock(*stock)  # cast an ordinary tuple to an instance of namedtuple
         total_value += stock_inst.qty * stock_inst.price
 
     return total_value
@@ -38,3 +38,12 @@ def calculate_portfolio_investment(stock_list: List):
 
 if __name__ == "__main__":
     main()
+
+
+"""
+Discussion:
+Use of nametuple instead of dictionary?
+1. A namedtuple instance is immutable while that is not the case with dictionary
+2. A namedtuple is efficient in terms of storage as compared to dictionary
+3. A namedtuple can be altered using function "_replace()" but it will create a new instance of namedtuple
+"""
