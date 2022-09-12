@@ -23,3 +23,10 @@ Miscellaneous lessons
 * itemgetter
 * attrgetter
 * lambda
+
+
+### Chapter 2: String and Text
+String functions for text searching
+* startswith() and endswith()
+* fnmatch() and fnmatchcase()
+* text processing using regular expressions
